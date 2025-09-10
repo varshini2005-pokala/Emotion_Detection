@@ -14,3 +14,8 @@ It analyzes input (such as text or image/emotion data) and predicts the correspo
 ---
 
 ## 🗂 Project Structure
+Emotion_detection/
+│
+├── index.html # Main HTML page
+├── style.css # CSS for styling
+└── script.js # JavaScript logic for emotion detection
