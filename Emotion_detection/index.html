@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emotion Detection</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>😊 Emotion Detection App</h1>
+
+    <!-- Image upload -->
+    <input type="file" id="imageUpload" accept="image/*">
+
+    <!-- Display uploaded image -->
+    <div class="image-container">
+      <img id="uploadedImage" />
+      <canvas id="overlay"></canvas>
+    </div>
+
+    <!-- Result -->
+    <div id="result">Upload an image to detect emotion.</div>
+  </div>
+</body>
+</html>
